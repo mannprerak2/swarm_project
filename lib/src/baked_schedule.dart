@@ -71,10 +71,10 @@ class BakedSchedule {
     }
   }
 
-  /// Start at 10am by default. Use DartConf's date (we don't care about the
-  /// date so it doesn't really matter yet).
+  /// Start at 10am by default. Use Next probable Engifest's date
+  /// (we don't care about the date so it doesn't really matter yet).
   static DateTime _defaultGenerateStartTime(int dayNumber) {
-    return DateTime.utc(2018, 1, 20 + dayNumber, 10);
+    return DateTime.utc(2021, 2, 12 + dayNumber, 10);
   }
 }
 

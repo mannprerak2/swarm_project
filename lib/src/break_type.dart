@@ -5,9 +5,9 @@ String printBreakType(BreakType type) {
     case BreakType.short:
       return '-- short break --';
     case BreakType.lunch:
-      return '== lunch break ==';
+      return '==== lunch break ====';
     case BreakType.day:
-      return '+++++ DAY BREAK +++++';
+      return '######### DAY BREAK #########';
   }
   throw StateError('No such type: $type');
 }

@@ -39,7 +39,7 @@ class Event {
   bool get isDayBreak => tags.contains(day_break);
 
   /// Algorithm will try hard to put `day_end` talks at end of day. Use
-  /// for things like lightning talks / unconferences / wrap-ups.
+  /// for things like wrap-ups or big events.
   bool get isDayEnd => tags.contains(day_end);
 
   /// Algorithm will try to schedule exciting talks after food (or at start
@@ -48,8 +48,6 @@ class Event {
 
   /// Algorithm will try to schedule exciting talks at start of day so they're
   /// not wasted in the middle of unimpressive talks.
-  ///
-  /// Or at least starts of blocks. (TODO)
   bool get isExciting => tags.contains(exciting);
 
   /// Algorithm will try hard to put keynote at start of day 1 or at least
@@ -67,15 +65,6 @@ class Event {
       return int.parse(match.group(1));
     }
     return null;
-  }
-
-  bool shouldComeAfter(Event other) {
-    for (final tag in tags) {
-      for (final otherTag in other.tags) {
-        if (tag == 'after_$otherTag') return true;
-      }
-    }
-    return false;
   }
 
   @override

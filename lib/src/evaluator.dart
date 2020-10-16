@@ -7,13 +7,11 @@ import 'package:darwin/darwin.dart';
 
 class ScheduleEvaluator
     extends PhenotypeEvaluator<Schedule, int, ScheduleEvaluatorPenalty> {
+  /// Lunch break should be around 12 to 2.
   static const _lunchHourMin = 12;
-
-  static const _lunchHourMax = 13;
+  static const _lunchHourMax = 14;
 
   final List<Event> events;
-
-  final int targetDays = 2;
 
   final List<CustomEvaluator> _customEvaluators;
 
@@ -53,29 +51,18 @@ class ScheduleEvaluator
       penalty.constraints += ordered.indexOf(firstKeynote).toDouble();
     }
 
-    for (var i = 0; i < ordered.length; i++) {
-      for (var j = i + 1; j < ordered.length; j++) {
-        final first = ordered[i];
-        final second = ordered[j];
-        if (first.shouldComeAfter(second)) {
-          penalty.constraints += 10.0 + (j - i) / 20;
-        }
-      }
-    }
-
     final days = phenotype.getDays(ordered, events).toList(growable: false);
-    penalty.constraints += (targetDays - days.length).abs() * 10.0;
 
     var dayNumber = 0;
     for (final day in days) {
       dayNumber += 1;
       if (day.isEmpty) {
-        penalty.cultural += 1.0;
+        penalty.cultural += 50.0;
         continue;
       }
-      for (final keynoteEvent in day.where((s) => s.isInauguration)) {
-        // Keynotes should start days.
-        penalty.cultural += day.indexOf(keynoteEvent) * 2.0;
+      for (final inaugurationEvent in day.where((s) => s.isInauguration)) {
+        // Imauguration events should start days.
+        penalty.cultural += day.indexOf(inaugurationEvent) * 2.0;
       }
       for (final excitingEvent in day.where((s) => s.isExciting)) {
         penalty.awareness += day.indexOf(excitingEvent) / 2;
@@ -83,20 +70,20 @@ class ScheduleEvaluator
       for (final dayEndEvent in day.where((s) => s.isDayEnd)) {
         // end_day events should end the day.
         penalty.constraints +=
-            (day.length - day.indexOf(dayEndEvent) - 1) * 2.0;
+            (day.length - day.indexOf(dayEndEvent) - 1) * 100.0;
       }
       for (final _ in day.where(
           (s) => s.preferredDay != null && s.preferredDay != dayNumber)) {
         // Events should be scheduled for days they were tagged with (`day2`).
-        penalty.constraints += 10.0;
+        penalty.constraints += 50.0;
       }
       // Only this many lunches per day. (Normally 1.)
       penalty.cultural +=
           (targetLunchesPerDay - day.where((s) => s.isLunch).length).abs() *
-              10.0;
+              50.0;
       // Keep the days not too long.
       penalty.awareness +=
-          max(0, phenotype.getLength(day) - maxMinutesInDay) / 30;
+          max(0, phenotype.getLength(day) - maxMinutesInDay) / 5;
     }
 
     for (final noFoodBlock
@@ -104,11 +91,10 @@ class ScheduleEvaluator
       if (noFoodBlock.isEmpty) continue;
       for (final energeticEvent in noFoodBlock.where((s) => s.isEnergetic)) {
         // Energetic events should be just after food.
-        penalty.awareness += noFoodBlock.indexOf(energeticEvent) / 2;
+        penalty.awareness += noFoodBlock.indexOf(energeticEvent) * 20;
       }
-      penalty.hunger += max(0,
-              phenotype.getLength(noFoodBlock) - maxMinutesWithoutLargeMeal) /
-          20;
+      penalty.hunger +=
+          max(0, phenotype.getLength(noFoodBlock) - maxMinutesWithoutLargeMeal);
     }
 
     void penalizeSeekAvoid(Event a, Event b) {
@@ -168,18 +154,18 @@ class ScheduleEvaluator
       for (final baked in bakedDay.list) {
         if (!baked.event.isLunch) continue;
         final distance = _getDistanceFromLunchHour(baked.time);
-        penalty.cultural += distance.inMinutes.abs() / 20;
+        penalty.cultural += distance.inMinutes.abs() / 2;
       }
     }
 
-    // Penalize "hairy" event times (13:45 instead of 14:00).
-    for (final day in baked.days.values) {
-      for (final event in day.list) {
-        if (event.time.minute % 30 != 0) {
-          penalty.cultural += 0.01;
-        }
-      }
-    }
+    // // Penalize "hairy" event times (13:45 instead of 14:00).
+    // for (final day in baked.days.values) {
+    //   for (final event in day.list) {
+    //     if (event.time.minute % 30 != 0) {
+    //       penalty.cultural += 0.01;
+    //     }
+    //   }
+    // }
 
     final usedOrderIndexes = <int>{};
     for (final order in phenotype.genes) {

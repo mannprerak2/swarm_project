@@ -4,25 +4,17 @@ import 'package:engifest_scheduler/src/evaluator.dart';
 import 'package:engifest_scheduler/src/event.dart';
 import 'package:darwin/darwin.dart';
 
+/// Days in fest.
+const days = 3;
+
 class Schedule extends Phenotype<int, ScheduleEvaluatorPenalty> {
-  static const int defaultEventsPerDay = 10;
-
-  static const int defaultEventsBetweenBreaks = 3;
-
   final int eventCount;
 
-  final int maxShortBreaksCount;
-
   final int maxLunchBreaksCount;
-
-  final int maxExtendedLunchBreaksCount;
 
   final int maxDayBreaksCount;
 
   final int orderRange;
-
-  /// Order above this value will not appear in the program.
-  final int orderRangeCutOff;
 
   int _geneCount;
 
@@ -30,18 +22,10 @@ class Schedule extends Phenotype<int, ScheduleEvaluatorPenalty> {
 
   Schedule(List<Event> events)
       : eventCount = events.length,
-        maxDayBreaksCount = (events.length / defaultEventsPerDay).ceil() - 1,
-        maxLunchBreaksCount = (events.length / defaultEventsPerDay).ceil(),
-        maxExtendedLunchBreaksCount = 0,
-        maxShortBreaksCount =
-            (events.length / defaultEventsBetweenBreaks).ceil(),
-        orderRange = events.length * 6,
-        orderRangeCutOff = events.length * 5 {
-    _geneCount = eventCount +
-        maxDayBreaksCount +
-        maxLunchBreaksCount +
-        maxExtendedLunchBreaksCount +
-        maxShortBreaksCount;
+        maxDayBreaksCount = days - 1,
+        maxLunchBreaksCount = days,
+        orderRange = events.length * 6 {
+    _geneCount = eventCount + maxDayBreaksCount + maxLunchBreaksCount;
   }
 
   factory Schedule.random(List<Event> events) {
@@ -118,13 +102,13 @@ class Schedule extends Phenotype<int, ScheduleEvaluatorPenalty> {
     final buf = StringBuffer();
 
     for (final slot in baked.list) {
-      buf.write('\t');
+      buf.write(''.padRight(2));
       final hour = slot.time.hour;
       final minute = slot.time.minute.toString().padLeft(2, '0');
       buf.write('$hour:$minute');
-      buf.write('\t');
-      buf.write(slot.event.name);
-      buf.write('\t');
+      buf.write(''.padRight(2));
+      buf.write(slot.event.name.padRight(60));
+      buf.write(''.padRight(2));
       buf.write(slot.event.length);
       buf.writeln();
     }
@@ -188,28 +172,19 @@ class Schedule extends Phenotype<int, ScheduleEvaluatorPenalty> {
       allEvents[original[i]] = genes[geneIndex];
       geneIndex += 1;
     }
-    for (var i = 0; i < maxShortBreaksCount; i++) {
-      final shortBreak = Event.defaultShortBreak();
-      allEvents[shortBreak] = genes[geneIndex];
-      geneIndex += 1;
-    }
+
     for (var i = 0; i < maxLunchBreaksCount; i++) {
       final lunch = Event.defaultLunch();
       allEvents[lunch] = genes[geneIndex];
       geneIndex += 1;
     }
-    for (var i = 0; i < maxExtendedLunchBreaksCount; i++) {
-      final lunch = Event.defaultExtendedLunch();
-      allEvents[lunch] = genes[geneIndex];
-      geneIndex += 1;
-    }
+
     for (var i = 0; i < maxDayBreaksCount; i++) {
       final dayBreak = Event.defaultDayBreak();
       allEvents[dayBreak] = genes[geneIndex];
       geneIndex += 1;
     }
-    final ordered = List<Event>.from(
-        allEvents.keys.where((key) => allEvents[key] < orderRangeCutOff));
+    final ordered = List<Event>.from(allEvents.keys);
     ordered.sort((a, b) => allEvents[a].compareTo(allEvents[b]));
     return ordered;
   }

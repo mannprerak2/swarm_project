@@ -1,23 +1,29 @@
 import 'package:engifest_scheduler/engifest_scheduler.dart';
 import 'package:engifest_scheduler/events.dart';
 
+/// Number of members in a generation.
+const generationMemberCount = 200;
+
+/// Number of generations to breed.
+const generationExperiments = 3000;
 void main() async {
   // Init a Random first generation.
   final firstGeneration = Generation<Schedule, int, ScheduleEvaluatorPenalty>()
-    ..members.addAll(List.generate(200, (_) => Schedule.random(events)));
+    ..members.addAll(
+        List.generate(generationMemberCount, (_) => Schedule.random(events)));
 
-  final evaluator = ScheduleEvaluator(events, [engifestEvaluators]);
+  final evaluator = ScheduleEvaluator(events, [engifestEvaluator]);
 
   final breeder = GenerationBreeder<Schedule, int, ScheduleEvaluatorPenalty>(
       () => Schedule(events))
-    ..fitnessSharingRadius = 0.5
+    ..fitnessSharingRadius = 0.6
     ..elitismCount = 1;
 
   // Create the algo object.
   final algo = GeneticAlgorithm<Schedule, int, ScheduleEvaluatorPenalty>(
       firstGeneration, evaluator, breeder,
-      printf: (_) {})
-    ..MAX_EXPERIMENTS = 100000
+      printf: (_) {}, statusf: (_) {})
+    ..MAX_EXPERIMENTS = generationMemberCount * generationExperiments
     ..THRESHOLD_RESULT = ScheduleEvaluatorPenalty();
 
   // Set progress listener.
@@ -34,20 +40,17 @@ void main() async {
   printResults(algo.generations.last, events);
 }
 
-void engifestEvaluators(
+void engifestEvaluator(
     BakedSchedule schedule, ScheduleEvaluatorPenalty penalty) {
-  final firstDay = schedule.days[1];
-  if (firstDay != null) {
-    // Penalize for not ending first day at 6pm.
-    final firstDayTargetEnd = DateTime.utc(
-        firstDay.end.year, firstDay.end.month, firstDay.end.day, 18);
-    penalty.constraints +=
-        firstDay.end.difference(firstDayTargetEnd).inMinutes.abs() / 10;
+  for (final day in schedule.days.values) {
+    /// Penalty for ending day after 6 pm.
+    if (day.end.hour > 18 || day.end.hour < 12) {
+      penalty.constraints += 50;
+    }
 
-    // Penalize for too much Flutter in the first block.
-    final firstBlock = firstDay.list.takeWhile((s) => !s.event.isBreak);
-    if (firstBlock.every((s) => s.event.tags.contains('flutter'))) {
-      penalty.repetitiveness += 0.5;
+    /// Penalty for ending day after 7 pm.
+    if (day.end.hour > 19 || day.end.hour < 12) {
+      penalty.constraints += 200;
     }
   }
 }
@@ -56,14 +59,12 @@ void printResults(Generation<Schedule, int, ScheduleEvaluatorPenalty> gen,
     List<Event> events) {
   final lastGeneration = List<Schedule>.from(gen.members);
   lastGeneration.sort();
-  for (var i = 0; i < lastGeneration.length; i++) {
-    final specimen = lastGeneration[i];
-    print('======= Winner $i ('
-        'pareto rank ${specimen.result.paretoRank} '
-        'fitness ${specimen.result.evaluate().toStringAsFixed(2)} '
-        'shared ${specimen.resultWithFitnessSharingApplied.toStringAsFixed(2)} '
-        ') ====');
-    print('${specimen.genesAsString}');
-    print(specimen.generateSchedule(events));
-  }
+  final specimen = lastGeneration[0];
+  print('======= Winner ('
+      'pareto rank ${specimen.result.paretoRank} '
+      'fitness ${specimen.result.evaluate().toStringAsFixed(2)} '
+      'shared ${specimen.resultWithFitnessSharingApplied.toStringAsFixed(2)} '
+      ') ====');
+  print('Genes (${specimen.genes.length}): ${specimen.genesAsString}');
+  print(specimen.generateSchedule(events));
 }

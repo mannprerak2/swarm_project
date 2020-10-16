@@ -1,0 +1,810 @@
+======= Winner (pareto rank 1 fitness 633.50 shared 1223.01 ) ====
+Genes (24): [32,110,47,38,72,89,62,47,81,84,78,35,31,26,37,17,93,6,25,45,22,84,33,69]
+  10:00  Youtube Fiesta - Meet the stars                               45
+  10:45  Engi Idol - Indian solo singing                               90
+  12:15  ==== lunch break ====                                         60
+  13:15  TVF - cast meet and greet                                     60
+  14:15  Music Fest - Rooh Band                                        120
+  16:15  Pratibimb Natya - live theatre                                45
+  17:00  Inauguration - lighting the lamp                              60
+  18:00  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Madhurima - music society DTU                                 45
+  11:30  Vibe - dance society DTU                                      45
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors word - Resso App                                     30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Sponsors Word - Nestle                                        30
+  12:30  Sponsors Word - Pepsi Co.                                     30
+  13:00  Sponsors Word - Ballebazi App                                 30
+  13:30  ==== lunch break ====                                         60
+  14:30  Rahul Dua - standup comedy                                    60
+  15:30  Interactive Talent show - live audience talent hunt           45
+  16:15  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 619.30 shared 799.93 ) ====
+Genes (24): [9,110,49,105,72,109,62,10,81,51,34,35,87,26,20,24,73,36,30,45,22,89,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Madhurima - music society DTU                                 45
+  12:15  ==== lunch break ====                                         60
+  13:15  Engi Idol - Indian solo singing                               90
+  14:45  Music Fest - Rooh Band                                        120
+  16:45  TVF - cast meet and greet                                     60
+  17:45  ######### DAY BREAK #########                                 0
+  10:00  Sponsors Word - Nestle                                        30
+  10:30  Nukkad Natak - live theatre                                   45
+  11:15  Youtube Fiesta - Meet the stars                               45
+  12:00  ==== lunch break ====                                         60
+  13:00  Spandan - group dance                                         180
+  16:00  Sponsors Word - Ballebazi App                                 30
+  16:30  Anubhav Singh Bassi - Standup Comedy                          90
+  18:00  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Interactive Talent show - live audience talent hunt           45
+  12:45  Sponsors Word - Pepsi Co.                                     30
+  13:15  Pratibimb Natya - live theatre                                45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 609.40 shared 677.11 ) ====
+Genes (24): [9,110,49,38,72,32,68,92,14,101,59,35,96,26,20,24,75,35,74,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Madhurima - music society DTU                                 45
+  12:15  ==== lunch break ====                                         60
+  13:15  Engi Idol - Indian solo singing                               90
+  14:45  Music Fest - Rooh Band                                        120
+  16:45  Rahul Dua - standup comedy                                    60
+  17:45  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Youtube Fiesta - Meet the stars                               45
+  11:30  Vibe - dance society DTU                                      45
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  TVF - cast meet and greet                                     60
+  13:00  Interactive Talent show - live audience talent hunt           45
+  13:45  ==== lunch break ====                                         60
+  14:45  Sponsors word - Resso App                                     30
+  15:15  Pratibimb Natya - live theatre                                45
+  16:00  Sponsors Word - Ballebazi App                                 30
+  16:30  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 605.40 shared 1051.04 ) ====
+Genes (24): [9,110,49,105,72,89,68,22,31,44,76,19,37,27,23,24,75,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Nukkad Natak - live theatre                                   45
+  11:45  Sponsors word - Resso App                                     30
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  Sponsors Word - Pepsi Co.                                     30
+  18:00  ######### DAY BREAK #########                                 0
+  10:00  Pratibimb Natya - live theatre                                45
+  10:45  TVF - cast meet and greet                                     60
+  11:45  Sponsors Word - Ballebazi App                                 30
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Anubhav Singh Bassi - Standup Comedy                          90
+  17:45  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Interactive Talent show - live audience talent hunt           45
+  12:45  Sponsors Word - Nestle                                        30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Rahul Dua - standup comedy                                    60
+  16:00  Vibe - dance society DTU                                      45
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 604.30 shared 721.80 ) ====
+Genes (24): [9,110,57,87,72,89,68,78,13,44,59,80,35,27,23,24,15,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Interactive Talent show - live audience talent hunt           45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Pratibimb Natya - live theatre                                45
+  10:45  TVF - cast meet and greet                                     60
+  11:45  Sponsors Word - Ballebazi App                                 30
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Sponsors word - Resso App                                     30
+  12:30  Nukkad Natak - live theatre                                   45
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 604.30 shared 1133.06 ) ====
+Genes (24): [9,110,57,87,72,89,68,78,13,44,59,80,35,27,23,24,15,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Interactive Talent show - live audience talent hunt           45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Pratibimb Natya - live theatre                                45
+  10:45  TVF - cast meet and greet                                     60
+  11:45  Sponsors Word - Ballebazi App                                 30
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Sponsors word - Resso App                                     30
+  12:30  Nukkad Natak - live theatre                                   45
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 604.30 shared 990.38 ) ====
+Genes (24): [9,110,57,87,72,89,68,78,13,44,59,80,35,27,23,24,15,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Interactive Talent show - live audience talent hunt           45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Pratibimb Natya - live theatre                                45
+  10:45  TVF - cast meet and greet                                     60
+  11:45  Sponsors Word - Ballebazi App                                 30
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Sponsors word - Resso App                                     30
+  12:30  Nukkad Natak - live theatre                                   45
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 604.30 shared 1124.67 ) ====
+Genes (24): [9,110,57,87,72,89,68,78,13,44,59,80,35,27,23,24,15,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Interactive Talent show - live audience talent hunt           45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Pratibimb Natya - live theatre                                45
+  10:45  TVF - cast meet and greet                                     60
+  11:45  Sponsors Word - Ballebazi App                                 30
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Sponsors word - Resso App                                     30
+  12:30  Nukkad Natak - live theatre                                   45
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 737.98 ) ====
+Genes (24): [9,110,57,87,72,89,68,42,13,74,59,80,35,27,23,24,15,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Interactive Talent show - live audience talent hunt           45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Pratibimb Natya - live theatre                                45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Sponsors Word - Ballebazi App                                 30
+  12:30  Nukkad Natak - live theatre                                   45
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 737.98 ) ====
+Genes (24): [9,109,51,87,72,89,68,42,13,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Nukkad Natak - live theatre                                   45
+  12:45  Sponsors Word - Ballebazi App                                 30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 1140.51 ) ====
+Genes (24): [9,109,51,87,72,89,68,42,13,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Nukkad Natak - live theatre                                   45
+  12:45  Sponsors Word - Ballebazi App                                 30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 821.84 ) ====
+Genes (24): [9,109,51,87,72,89,68,42,13,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Nukkad Natak - live theatre                                   45
+  12:45  Sponsors Word - Ballebazi App                                 30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 679.27 ) ====
+Genes (24): [9,109,51,87,72,89,68,42,13,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Nukkad Natak - live theatre                                   45
+  12:45  Sponsors Word - Ballebazi App                                 30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 637.34 ) ====
+Genes (24): [9,109,51,87,72,89,68,42,13,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Nukkad Natak - live theatre                                   45
+  12:45  Sponsors Word - Ballebazi App                                 30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 637.34 ) ====
+Genes (24): [9,109,51,87,72,89,68,42,13,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors Word - Pepsi Co.                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors word - Resso App                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Anusthaan - solo/duet dance                                   120
+  12:00  Nukkad Natak - live theatre                                   45
+  12:45  Sponsors Word - Ballebazi App                                 30
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 662.50 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 696.05 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 880.54 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 712.82 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 905.70 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 603.80 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 754.75 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 696.05 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 696.05 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 654.12 ) ====
+Genes (24): [9,102,51,87,79,89,68,11,40,74,59,73,15,27,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 796.68 ) ====
+Genes (24): [9,113,51,87,79,89,68,11,40,74,59,73,15,29,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 1148.90 ) ====
+Genes (24): [9,113,51,87,79,89,68,11,40,74,59,73,15,29,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 620.57 ) ====
+Genes (24): [9,113,51,87,79,89,68,11,40,74,59,73,15,29,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 603.80 ) ====
+Genes (24): [9,113,51,87,79,89,68,11,40,74,59,73,15,29,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Vibe - dance society DTU                                      45
+  15:45  Rahul Dua - standup comedy                                    60
+  16:45  Wrap Up - Concluding the fest                                 30
+
+======= Winner (pareto rank 1 fitness 603.80 shared 662.50 ) ====
+Genes (24): [9,113,51,102,79,89,68,11,40,74,59,73,15,29,23,24,38,82,43,45,22,84,33,69]
+  10:00  Inauguration - lighting the lamp                              60
+  11:00  Sponsors word - Resso App                                     30
+  11:30  Pratibimb Natya - live theatre                                45
+  12:15  ==== lunch break ====                                         60
+  13:15  Madhurima - music society DTU                                 45
+  14:00  Engi Idol - Indian solo singing                               90
+  15:30  Music Fest - Rooh Band                                        120
+  17:30  ######### DAY BREAK #########                                 0
+  10:00  Interactive Talent show - live audience talent hunt           45
+  10:45  Sponsors Word - Pepsi Co.                                     30
+  11:15  TVF - cast meet and greet                                     60
+  12:15  ==== lunch break ====                                         60
+  13:15  Spandan - group dance                                         180
+  16:15  Sponsors Word - Nestle                                        30
+  16:45  Anubhav Singh Bassi - Standup Comedy                          90
+  18:15  ######### DAY BREAK #########                                 0
+  10:00  Nukkad Natak - live theatre                                   45
+  10:45  Sponsors Word - Ballebazi App                                 30
+  11:15  Anusthaan - solo/duet dance                                   120
+  13:15  Youtube Fiesta - Meet the stars                               45
+  14:00  ==== lunch break ====                                         60
+  15:00  Rahul Dua - standup comedy                                    60
+  16:00  Vibe - dance society DTU                                      45
+  16:45  Wrap Up - Concluding the fest                                 30
+

@@ -1,5 +1,6 @@
 import 'package:engifest_scheduler/events.dart';
 
+/// Simple program to count the time duration of all events combined.
 void main() {
   var count = 0;
   var length = 0;
@@ -11,8 +12,9 @@ void main() {
   }
 
   print('Count: ' + count.toString());
-  print('length(min): ' +
+  print('length: ' +
       length.toString() +
-      ', hours: ' +
-      (length / 60).toString());
+      ' min (' +
+      (length / 60).toString() +
+      ' hr)');
 }
