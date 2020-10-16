@@ -1,7 +1,22 @@
 Genetic algorithm based scheduler for Engifest.
 
-## Todo
-- [ ] Collect basic Engifest events data - Name, Timings, Duration (in excel sheet).
-- [ ] Create and assign tags to describe these events.
-- [ ] Make constraints for events, E.g - concerts at day end, no high rated events happening at the same time, no similar events happening consecutively.
-- [ ] Add events and constraints to account for meal breaks.
+## Setup
+1. Install [dart](https://dart.dev/)
+2. Run`dart pub get`
+
+## Running
+
+#### Verbose output
+```bash
+dart bin/schedule.dart -v
+```
+
+#### Minimal output (once every 100 generation).
+```bash
+dart bin/schedule.dart
+```
+
+#### Output to file
+```bash
+dart bin/schedule.dart > output.txt
+```
