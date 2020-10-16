@@ -2,120 +2,150 @@ import 'engifest_scheduler.dart';
 import 'constants.dart';
 
 final events = <Event>[
-  Event('Let’s live code in Flutter', 30,
-      tags: [flutter, energetic, demo, exciting, flutter_main],
-      avoid: [demo],
-      seek: []),
-  Event('Flutter / Angular code sharing deep dive', 30, tags: [
-    flutter,
-    angulardart,
-    platform,
-    deepdive,
-    after_flutter_main,
-    after_angulardart_main,
-    codeshare,
-    after_apptree
-  ], avoid: [
-    deepdive,
-    codeshare
-  ], seek: []),
-  Event('How to build good packages and plugins ', 30,
-      tags: [platform], avoid: [], seek: []),
-  Event('Keynote ', 45,
-      tags: [keynote, platform, energetic, exciting, day1],
-      avoid: [deepdive],
-      seek: []),
-  Event('Unconference ', 120, tags: [day_end, day2], avoid: [], seek: []),
+  /// Event inauguration and ending.
   Event(
-      'Faisal Abid: From Zero to One - Building a real world Flutter Application',
-      30,
-      tags: [
-        flutter,
-        architecture,
-        third_party,
-        after_flutter_main,
-        after_angulardart_main
-      ],
-      avoid: [
-        keynote
-      ],
-      seek: [
-        flutter
-      ]),
-  Event('Making Dart fast on mobile', 30,
-      tags: [platform, flutter, deepdive, flutter_fast, after_dart_main],
-      avoid: [deepdive],
-      seek: [flutter]),
-  Event('AngularDart: architecting for size and speed ', 30, tags: [
-    angulardart,
-    architecture,
-    deepdive,
-    angulardart_main,
-    after_dart_main
-  ], avoid: [
-    architecture,
-    deepdive
-  ], seek: []),
-  Event('Brian Egan: Keep it Simple, State: Architecture for Flutter Apps', 30,
-      tags: [
-        flutter,
-        architecture,
-        third_party,
-        deepdive,
-        after_flutter_main,
-        after_flutter_fast
-      ],
-      avoid: [
-        architecture,
-        third_party,
-        deepdive
-      ],
-      seek: [
-        flutter
-      ]),
-  Event('Dart language — what we’re working on right now ', 30,
-      tags: [platform, exciting, day1, dart_main], avoid: [], seek: [platform]),
-  Event('Effective Dart + IntelliJ ', 30,
-      tags: [platform, tooling], avoid: [keynote], seek: []),
-  Event('TrustWave: Power of AngularDart and Trustwave’s Customer Portal', 30,
-      tags: [angulardart, third_party, after_angulardart_main],
-      avoid: [keynote],
-      seek: [angulardart]),
-  Event('Flutter Inspector ', 30,
-      tags: [flutter, tooling, exciting, after_flutter_main],
-      avoid: [],
-      seek: []),
-  Event('Lightning talks ', 90, tags: [day_end, day1], avoid: [], seek: []),
-  Event('Eugenio: Save/restore library', 30, tags: [
-    flutter,
-    architecture,
-    deepdive,
-    third_party,
-    after_flutter_main,
-    after_flutter_fast,
-    after_dart_main
-  ], avoid: [
-    architecture,
-    third_party,
-    keynote
-  ], seek: [
-    flutter
-  ]),
-  Event('AppTree: Flutter & Web - Unite your code and your teams.', 30, tags: [
-    flutter,
-    architecture,
-    codeshare,
-    third_party,
-    after_flutter_main,
-    after_dart_main,
-    apptree
-  ], avoid: [
-    architecture,
-    third_party,
-    keynote,
-    codeshare
-  ], seek: [
-    flutter,
-    platform
-  ]),
+    'Inauguration - lighting the lamp',
+    60,
+    tags: [inauguration, day1],
+    seek: [],
+    avoid: [],
+  ),
+  Event(
+    'Wrap Up - Concluding the fest',
+    30,
+    tags: [day3, day_end],
+    seek: [],
+    avoid: [],
+  ),
+
+  /// Dance events.
+  Event(
+    'Spandan - group dance',
+    180,
+    tags: [dance, exciting],
+    seek: [],
+    avoid: [dance],
+  ),
+  Event(
+    'Anusthaan - solo/duet dance',
+    120,
+    tags: [dance],
+    seek: [],
+    avoid: [dance],
+  ),
+  Event(
+    'Vibe - dance society DTU',
+    45,
+    tags: [],
+    seek: [],
+    avoid: [],
+  ),
+
+  /// Standup Comedy events.
+  Event(
+    'Rahul Dua - standup comedy',
+    60,
+    tags: [comedy, day_end],
+    seek: [],
+    avoid: [],
+  ),
+  Event(
+    'Anubhav Singh Bassi - Standup Comedy',
+    90,
+    tags: [comedy, day_end],
+    seek: [],
+    avoid: [],
+  ),
+
+  /// Sponsors events.
+  Event(
+    'Sponsors word - Resso App',
+    30,
+    tags: [sponsor],
+    seek: [exciting],
+    avoid: [break_, sponsor],
+  ),
+  Event(
+    'Sponsors Word - Pepsi Co.',
+    30,
+    tags: [sponsor],
+    seek: [exciting],
+    avoid: [break_, sponsor],
+  ),
+  Event(
+    'Sponsors Word - Ballebazi App',
+    30,
+    tags: [sponsor],
+    seek: [exciting],
+    avoid: [break_, sponsor],
+  ),
+  Event(
+    'Sponsors Word - Nestle',
+    30,
+    tags: [sponsor],
+    seek: [exciting],
+    avoid: [break_, sponsor],
+  ),
+
+  /// Theatre and Acting.
+  Event(
+    'Nukkad Natak - live theatre',
+    45,
+    tags: [theatre],
+    seek: [break_],
+    avoid: [],
+  ),
+  Event(
+    'Nukkad Natak - live theatre',
+    45,
+    tags: [theatre],
+    seek: [break_],
+    avoid: [],
+  ),
+
+  /// Music Events.
+  Event(
+    'Music Fest - Rooh Band',
+    120,
+    tags: [music, exciting],
+    seek: [],
+    avoid: [music, break_],
+  ),
+  Event(
+    'Madhurima - music society DTU',
+    45,
+    tags: [music, exciting],
+    seek: [music],
+    avoid: [break_],
+  ),
+  Event(
+    'Engi Idol - Indian solo singing',
+    120,
+    tags: [],
+    seek: [music, break_],
+    avoid: [],
+  ),
+
+  /// Misclelanous
+  Event(
+    'Interactive Talent show - live audience talent hunt',
+    60,
+    tags: [misc],
+    seek: [break_],
+    avoid: [],
+  ),
+  Event(
+    'Youtube Fiesta - Meet the stars',
+    60,
+    tags: [misc],
+    seek: [break_],
+    avoid: [],
+  ),
+  Event(
+    'TVF - cast meet and greet',
+    60,
+    tags: [misc],
+    seek: [break_],
+    avoid: [],
+  ),
 ];

@@ -47,9 +47,9 @@ class ScheduleEvaluator
       }
     }
 
-    if (ordered.any((s) => s.isKeynote)) {
+    if (ordered.any((s) => s.isInauguration)) {
       // There should be a keynote early on day 1.
-      final firstKeynote = ordered.firstWhere((s) => s.isKeynote);
+      final firstKeynote = ordered.firstWhere((s) => s.isInauguration);
       penalty.constraints += ordered.indexOf(firstKeynote).toDouble();
     }
 
@@ -73,7 +73,7 @@ class ScheduleEvaluator
         penalty.cultural += 1.0;
         continue;
       }
-      for (final keynoteEvent in day.where((s) => s.isKeynote)) {
+      for (final keynoteEvent in day.where((s) => s.isInauguration)) {
         // Keynotes should start days.
         penalty.cultural += day.indexOf(keynoteEvent) * 2.0;
       }

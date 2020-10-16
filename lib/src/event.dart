@@ -1,4 +1,5 @@
 import 'package:engifest_scheduler/src/break_type.dart';
+import 'package:engifest_scheduler/constants.dart';
 
 class Event {
   static final RegExp _dayPreferencePattern = RegExp(r'^day(\d+)$');
@@ -19,43 +20,43 @@ class Event {
 
   Event.defaultDayBreak()
       : this(printBreakType(BreakType.day), 0,
-            tags: ['day_break', 'break'], avoid: ['break']);
+            tags: [day_break, break_], avoid: [break_]);
 
   Event.defaultExtendedLunch()
       : this(printBreakType(BreakType.lunch), 60 + 15,
-            tags: ['lunch', 'break'], avoid: ['break']);
+            tags: [lunch, break_], avoid: [break_]);
 
   Event.defaultLunch()
       : this(printBreakType(BreakType.lunch), 60,
-            tags: ['lunch', 'break'], avoid: ['break']);
+            tags: [lunch, break_], avoid: [break_]);
 
   Event.defaultShortBreak()
       : this(printBreakType(BreakType.short), 30,
-            tags: ['break'], avoid: ['break']);
+            tags: [break_], avoid: [break_]);
 
-  bool get isBreak => tags.contains('break');
+  bool get isBreak => tags.contains(break_);
 
-  bool get isDayBreak => tags.contains('day_break');
+  bool get isDayBreak => tags.contains(day_break);
 
   /// Algorithm will try hard to put `day_end` talks at end of day. Use
   /// for things like lightning talks / unconferences / wrap-ups.
-  bool get isDayEnd => tags.contains('day_end');
+  bool get isDayEnd => tags.contains(day_end);
 
   /// Algorithm will try to schedule exciting talks after food (or at start
   /// of day) to get people going.
-  bool get isEnergetic => tags.contains('energetic');
+  bool get isEnergetic => tags.contains(energetic);
 
   /// Algorithm will try to schedule exciting talks at start of day so they're
   /// not wasted in the middle of unimpressive talks.
   ///
   /// Or at least starts of blocks. (TODO)
-  bool get isExciting => tags.contains('exciting');
+  bool get isExciting => tags.contains(exciting);
 
   /// Algorithm will try hard to put keynote at start of day 1 or at least
   /// at start of a day.
-  bool get isKeynote => tags.contains('keynote');
+  bool get isInauguration => tags.contains(inauguration);
 
-  bool get isLunch => tags.contains('lunch');
+  bool get isLunch => tags.contains(lunch);
 
   /// Returns the preferred day as specified by a [tag] (like `day1` or `day2`).
   /// Returns `null` when no day is preferred.
